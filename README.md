@@ -380,7 +380,7 @@
                         </div>
                         <h3 class="font-serif text-2xl font-bold text-beige mb-3">Kritik Humanisasi (Paulo Freire)</h3>
                         <p class="text-sm text-beige/80 leading-relaxed mb-4">
-                            Paulo Freire menegaskan bahwa tujuan hakiki pendidikan adalah **humanisasi** (proses memanusiakan manusia). Pendidikan bertugas membongkar "pendidikan gaya bank" (*banking concept of education*) yang memperlakukan peserta didik sebagai wadah kosong penampung dogma demi kepentingan akumulasi modal semata.
+                            Paulo Freire menegaskan bahwa tujuan hakiki pendidikan adalah humanisasi (proses memanusiakan manusia). Pendidikan bertugas membongkar "pendidikan gaya bank" (banking concept of education) yang memperlakukan peserta didik sebagai wadah kosong penampung dogma demi kepentingan akumulasi modal semata.
                         </p>
                         <ul class="space-y-2 text-xs text-beige/90">
                             <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-gold"></i> Penolakan terhadap dehumanisasi pekerja</li>
