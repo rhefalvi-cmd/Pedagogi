@@ -535,7 +535,7 @@
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row md:items-center justify-between mb-10 pb-4 border-b border-gold/20 gap-4">
                 <div>
-                    <span class="text-gold text-xs font-semibold tracking-widest uppercase block mb-1">Referensi Academik</span>
+                    <span class="text-gold text-xs font-semibold tracking-widest uppercase block mb-1">Referensi Akademik</span>
                     <h2 class="font-serif text-2xl sm:text-3xl font-bold text-beige">Daftar Pustaka</h2>
                 </div>
                 
