@@ -487,37 +487,37 @@
             </div>
 
             <!-- Conceptual Comparison Matrix -->
-            <div class="mt-14 glass-card p-6 sm:p-10 rounded-3xl border border-gold/40 shadow-2xl">
-                <h3 class="font-serif text-2xl sm:text-3xl font-bold text-gold mb-6 text-center">Tabel Perbandingan Paradigma Pendidikan</h3>
-                <div class="overflow-x-auto">
-                    <table class="w-full text-sm sm:text-base text-left text-beigelight">
-                        <thead class="text-xs sm:text-sm uppercase bg-darkgrey text-gold border-b-2 border-gold/30">
+            <div class="mt-14 bg-darkgrey/95 p-6 sm:p-10 rounded-3xl border-2 border-gold/60 shadow-2xl">
+                <h3 class="font-serif text-2xl sm:text-3xl font-bold text-goldlight mb-6 text-center tracking-wide">Tabel Perbandingan Paradigma Pendidikan</h3>
+                <div class="overflow-x-auto rounded-xl border border-gold/40">
+                    <table class="w-full text-sm sm:text-base text-left text-beigelight border-collapse">
+                        <thead class="text-xs sm:text-sm uppercase bg-darkgreen text-goldlight border-b-2 border-gold font-bold">
                             <tr>
-                                <th class="py-4 px-4 font-bold">Dimensi Analisis</th>
-                                <th class="py-4 px-4 font-bold">Paradigma Teknokratis (Pasar Kerja)</th>
-                                <th class="py-4 px-4 font-bold">Paradigma Humanistik (KHD & Freire)</th>
+                                <th class="py-4 px-5 font-extrabold tracking-wider bg-darkgreen">Dimensi Analisis</th>
+                                <th class="py-4 px-5 font-extrabold tracking-wider bg-darkgreen">Paradigma Teknokratis (Pasar Kerja)</th>
+                                <th class="py-4 px-5 font-extrabold tracking-wider bg-darkgreen">Paradigma Humanistik (KHD & Freire)</th>
                             </tr>
                         </thead>
-                        <tbody class="divide-y divide-gold/20">
-                            <tr class="hover:bg-darkgreen/40 transition">
-                                <td class="py-4 px-4 font-bold text-gold">Orientasi Utama</td>
-                                <td class="py-4 px-4">Efisiensi ekonomi, utilitas industri, komodifikasi modal.</td>
-                                <td class="py-4 px-4">Memanusiakan manusia, kemerdekaan jiwa, dan keadilan sosial.</td>
+                        <tbody class="divide-y divide-gold/30 font-medium">
+                            <tr class="bg-darkgrey/90 hover:bg-darkgreen/60 transition">
+                                <td class="py-4 px-5 font-bold text-goldlight">Orientasi Utama</td>
+                                <td class="py-4 px-5 text-high-contrast">Efisiensi ekonomi, utilitas industri, komodifikasi modal.</td>
+                                <td class="py-4 px-5 text-high-contrast">Memanusiakan manusia, kemerdekaan jiwa, dan keadilan sosial.</td>
                             </tr>
-                            <tr class="hover:bg-darkgreen/40 transition">
-                                <td class="py-4 px-4 font-bold text-gold">Posisi Siswa</td>
-                                <td class="py-4 px-4">Objek penerima informasi, calon angkatan kerja pabrik.</td>
-                                <td class="py-4 px-4">Subjek unik pembelajar yang dituntun sesuai potensi alamiahnya.</td>
+                            <tr class="bg-darkgreenlight/30 hover:bg-darkgreen/60 transition">
+                                <td class="py-4 px-5 font-bold text-goldlight">Posisi Siswa</td>
+                                <td class="py-4 px-5 text-high-contrast">Objek penerima informasi, calon angkatan kerja pabrik.</td>
+                                <td class="py-4 px-5 text-high-contrast">Subjek unik pembelajar yang dituntun sesuai potensi alamiahnya.</td>
                             </tr>
-                            <tr class="hover:bg-darkgreen/40 transition">
-                                <td class="py-4 px-4 font-bold text-gold">Peran Guru</td>
-                                <td class="py-4 px-4">Instruktur kurikulum baku, pengawas standar tes.</td>
-                                <td class="py-4 px-4">Fasilitator, pamong yang menuntun (*Sistem Among*), dan mitra dialog.</td>
+                            <tr class="bg-darkgrey/90 hover:bg-darkgreen/60 transition">
+                                <td class="py-4 px-5 font-bold text-goldlight">Peran Guru</td>
+                                <td class="py-4 px-5 text-high-contrast">Instruktur kurikulum baku, pengawas standar tes.</td>
+                                <td class="py-4 px-5 text-high-contrast">Fasilitator, pamong yang menuntun (<em>Sistem Among</em>), dan mitra dialog.</td>
                             </tr>
-                            <tr class="hover:bg-darkgreen/40 transition">
-                                <td class="py-4 px-4 font-bold text-gold">Indikator Sukses</td>
-                                <td class="py-4 px-4">Ijazah, IPK, besaran gaji, serapan pasar kerja cepat.</td>
-                                <td class="py-4 px-4">Kebijaksanaan budi pekerti, kesadaran kritis, kebermanfaatan hidup.</td>
+                            <tr class="bg-darkgreenlight/30 hover:bg-darkgreen/60 transition">
+                                <td class="py-4 px-5 font-bold text-goldlight">Indikator Sukses</td>
+                                <td class="py-4 px-5 text-high-contrast">Ijazah, IPK, besaran gaji, serapan pasar kerja cepat.</td>
+                                <td class="py-4 px-5 text-high-contrast">Kebijaksanaan budi pekerti, kesadaran kritis, kebermanfaatan hidup.</td>
                             </tr>
                         </tbody>
                     </table>
@@ -710,9 +710,8 @@
 
     <!-- Footer -->
     <footer class="bg-darkgrey border-t border-gold/20 py-10 text-center text-xs sm:text-sm text-beigelight/80">
-        <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div class="max-w-7xl mx-auto px-4 flex items-center justify-center">
             <p>© Kajian Historis & Filosofis Pendidikan Indonesia.</p>
-            <p class="text-gold font-medium">Palet Warna: Dark Green (#263D32) • Beige (#E8DCC8) • Hitam (#191919) • Gold (#B08D57)</p>
         </div>
     </footer>
 
